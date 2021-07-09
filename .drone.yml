@@ -2,7 +2,7 @@ kind: pipeline
 name: Build Bot
 
 steps:
-- name: Pixel Experience - Hlcpereira
+- name: Project LegionOS - Fajkale99
   image: baalajimaestro/android_build:latest
   environment:
     TELEGRAM_TOKEN:
@@ -12,6 +12,6 @@ steps:
     GITHUB_TOKEN:
       from_secret: GITHUB_TOKEN
   commands:
-  - echo dipper > /tmp/device
+  - echo miatoll > /tmp/device
   - echo xiaomi > /tmp/oem
   - bash ./setup.sh
